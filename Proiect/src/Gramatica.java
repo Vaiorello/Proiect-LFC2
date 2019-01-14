@@ -4,9 +4,10 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class Gramatica {
-    private HashSet<Productie> listaProductie = new HashSet<>();
+    private LinkedHashSet<Productie> listaProductie = new LinkedHashSet<>();
 
     Gramatica(){
 
