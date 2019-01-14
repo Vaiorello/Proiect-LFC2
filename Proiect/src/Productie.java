@@ -1,5 +1,3 @@
-package com.company;
-
 public class Productie {
     private char stanga;
     private String dreapta;
