@@ -52,6 +52,6 @@ public class FileUpload {
         }
 
         br.close();
-        return new Gramatica(start_cond,terminale,neterminale,productii);
+        return new Gramatica();
     }
 }
